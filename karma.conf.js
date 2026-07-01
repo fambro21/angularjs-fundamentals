@@ -19,6 +19,9 @@ module.exports = function (config) {
       "2-databinding-first-app/1-hello-world/*.spec.js",
       "2-databinding-first-app/2-clock-example/js/*.js",
       "2-databinding-first-app/2-clock-example/js/*.spec.js",
+
+      "3-scopes/*.js",
+      "3-scopes/*.spec.js",
     ],
 
     // list of files / patterns to exclude
