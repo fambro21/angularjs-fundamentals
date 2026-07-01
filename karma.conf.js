@@ -22,6 +22,9 @@ module.exports = function (config) {
 
       "3-scopes/*.js",
       "3-scopes/*.spec.js",
+
+      "4-controllers/basic/*.js",
+      "4-controllers/basic/*.spec.js",
     ],
 
     // list of files / patterns to exclude
