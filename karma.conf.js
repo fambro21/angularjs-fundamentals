@@ -15,8 +15,10 @@ module.exports = function (config) {
       "node_modules/angular/angular.js",
       "node_modules/angular-mocks/angular-mocks.js",
 
-      "2-databinding-first-app/1-hello-world/hello.js",
+      "2-databinding-first-app/1-hello-world/*.js",
       "2-databinding-first-app/1-hello-world/*.spec.js",
+      "2-databinding-first-app/2-clock-example/js/*.js",
+      "2-databinding-first-app/2-clock-example/js/*.spec.js",
     ],
 
     // list of files / patterns to exclude
