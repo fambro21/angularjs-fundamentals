@@ -16,5 +16,9 @@
     "karma-coverage": "^2.2.1",
     "karma-jasmine": "^5.1.0",
     "karma-spec-reporter": "^0.0.36"
+  },
+  "dependencies": {
+    "angular": "^1.8.3",
+    "angular-mocks": "^1.8.3"
   }
 }
