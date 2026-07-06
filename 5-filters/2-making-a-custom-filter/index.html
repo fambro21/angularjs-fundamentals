@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" ng-app="CustomFilterApp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+  </head>
+  <body>
+    <div>
+      <h5>Custom Capitalize Filter:</h5>
+      <h2>{{ 'ginger lovers dog bones' | lowercase | capitalize }}</h2>
+    </div>
+
+    <div>
+      <h5>Custom blankIfNegative Filter:</h5>
+      <h2>{{ 15 | blankIfNegative }}</h2>
+      <h2>{{ -15 | blankIfNegative }}</h2>
+    </div>
+
+    <script src="./filter.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
