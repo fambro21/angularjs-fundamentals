@@ -22,8 +22,6 @@ describe("HelloUser component", function () {
 
     scope.$digest();
 
-    scope.$digest();
-
     expect(element.text()).toContain("Hello Jonathan");
   });
 });
