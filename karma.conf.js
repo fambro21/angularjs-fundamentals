@@ -28,6 +28,9 @@ module.exports = function (config) {
 
       "4-controllers/inheritance/*.js",
       "4-controllers/inheritance/*.spec.js",
+
+      "5-filters/1-builtin-filters/*.js",
+      "5-filters/1-builtin-filters/*.spec.js",
     ],
 
     // list of files / patterns to exclude
