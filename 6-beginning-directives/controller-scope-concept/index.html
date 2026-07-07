@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" ng-app="ScopeConceptApp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Controller Scope Concept</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+  </head>
+  <body>
+    <p>We can access: {{rootProperty }}</p>
+    <div id="parentController" ng-controller="ParentController">
+      <p>We can access: {{rootProperty }} and {{ parentProperty }}</p>
+      <div id="childController" ng-controller="ChildController">
+        <p>
+          We can access: {{ rootProperty }} and {{ parentProperty }} and {{
+          childProperty }}
+        </p>
+      </div>
+    </div>
+  </body>
+  <script src="./app.js"></script>
+</html>
