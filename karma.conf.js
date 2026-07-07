@@ -34,6 +34,9 @@ module.exports = function (config) {
 
       "5-filters/2-making-a-custom-filter/*.js",
       "5-filters/2-making-a-custom-filter/*.spec.js",
+
+      "6-beginning-directives/first-directive/*.js",
+      "6-beginning-directives/first-directive/*.spec.js",
     ],
 
     // list of files / patterns to exclude
