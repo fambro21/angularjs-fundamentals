@@ -43,6 +43,9 @@ module.exports = function (config) {
 
       "6-beginning-directives/controllers-vs-directives/*.js",
       "6-beginning-directives/controllers-vs-directives/*.spec.js",
+
+      "7-built-in-directives/1-intro/*.js",
+      "7-built-in-directives/1-intro/*.spec.js",
     ],
 
     // list of files / patterns to exclude
