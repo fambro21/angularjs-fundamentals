@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" ng-app="WIPApp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wip</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+  </head>
+  <body>
+    <div ng-controller="ParentController">
+      <input type="text" ng-model="name" />
+      <input type="text" ng-model="myLinkText" />
+
+      <div ng-controller="ChildController">
+        <div
+          my-directive
+          some-attr="myUrl"
+          my-link-text="myLinkText"
+          some-hello="name"
+          another-hello=""
+        ></div>
+      </div>
+    </div>
+    <script src="./wip.js"></script>
+  </body>
+</html>
