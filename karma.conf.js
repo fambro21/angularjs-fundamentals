@@ -52,6 +52,9 @@ module.exports = function (config) {
 
       "7-built-in-directives/3-ng-app/*.js",
       "7-built-in-directives/3-ng-app/*.spec.js",
+
+      "7-built-in-directives/4-ng-bind-template/*.js",
+      "7-built-in-directives/4-ng-bind-template/*.spec.js",
     ],
 
     // list of files / patterns to exclude
