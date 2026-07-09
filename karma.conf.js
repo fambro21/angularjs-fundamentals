@@ -49,6 +49,9 @@ module.exports = function (config) {
 
       "7-built-in-directives/2-nested-controller-anti-pattern/*.js",
       "7-built-in-directives/2-nested-controller-anti-pattern/*.spec.js",
+
+      "7-built-in-directives/3-ng-app/*.js",
+      "7-built-in-directives/3-ng-app/*.spec.js",
     ],
 
     // list of files / patterns to exclude
