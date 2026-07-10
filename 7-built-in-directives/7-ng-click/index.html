@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en" ng-app="clickDirectiveApp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ng Click</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+  </head>
+  <body>
+    <div ng-controller="CounterController">
+      <button ng-click="increment()">Increment</button>
+      count: {{count}}
+
+      <button ng-click="decrement()">Decrement</button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
