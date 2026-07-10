@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en" ng-app="ngClassApp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NgClass</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+  </head>
+  <body>
+    <div ng-controller="LotteryController">
+      <div ng-class="{red: x > 5}" ng-if="x > 5">You won!</div>
+      <button ng-click="x=generateNumber()" ng-init="x = 0">Draw Number</button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
