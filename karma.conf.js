@@ -64,6 +64,9 @@ module.exports = function (config) {
 
       "7-built-in-directives/7-ng-click/*.js",
       "7-built-in-directives/7-ng-click/*.spec.js",
+
+      "7-built-in-directives/8-ng-checked/*.js",
+      "7-built-in-directives/8-ng-checked/*.spec..js",
     ],
 
     // list of files / patterns to exclude

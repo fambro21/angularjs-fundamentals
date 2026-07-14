@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" ng-app="ngCheckedApp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+    <title>NgChecked</title>
+  </head>
+  <body>
+    <label>someProperty = T{{someProperty}}</label>
+    <input
+      type="checkbox"
+      ng-checked="someProperty"
+      ng-init="someProperty = true"
+      ng-model="someProperty"
+    />
+
+    <br />
+
+    <label>anotherProperty = {{anotherProperty}}</label>
+    <input
+      type="checkbox"
+      ng-checked="anotherProperty"
+      ng-checked="anotherProperty = false"
+      ng-model="anotherProperty"
+    />
+
+    <script src="./app.js"></script>
+  </body>
+</html>
