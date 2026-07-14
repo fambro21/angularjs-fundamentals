@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en" ng-app="NgDisabled">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ng Disabled</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+  </head>
+  <body>
+    <h1>Demo 1:</h1>
+    <input type="text" ng-model="someProperty" placeholder="Type to Enable" />
+    <button ng-model="button" ng-disabled="!someProperty">A Button</button>
+
+    <h1>Demo 2:</h1>
+    <textarea ng-disabled="isDisabled">Wait 1 second</textarea>
+    <script src="./app.js"></script>
+  </body>
+</html>
