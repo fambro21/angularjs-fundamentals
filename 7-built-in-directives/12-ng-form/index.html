@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" ng-app="ngFormApp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NgForm</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <form
+      name="signup_form"
+      ng-controller="FormController"
+      ng-submit="submitForm()"
+      novalidate
+    >
+      <div ng-repeat="field in fields" ng-form="signup_form_input">
+        <input
+          type="{{field.type}}"
+          name="dynamic_input"
+          ng-required="field.isRequired"
+          ng-model="field.value"
+          placeholder="{{field.placeholder}}"
+        />
+        <div
+          ng-show="signup_form_input.dynamic_input.$dirty && signup_form_input.dynamic_input.$error.required"
+        >
+          <span class="error">This field is required.</span>
+        </div>
+      </div>
+      <button type="submit" ng-disabled="signup_form.$invalid">
+        Submit All
+      </button>
+    </form>
+    <script src="./app.js"></script>
+  </body>
+</html>

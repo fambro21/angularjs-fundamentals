@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug AngularJS App",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://127.0.0.1:5500/5-filters/2-making-a-custom-filter/index.html",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}

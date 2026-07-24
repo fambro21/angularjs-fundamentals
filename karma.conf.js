@@ -75,7 +75,10 @@ module.exports = function (config) {
       "7-built-in-directives/10-ng-cloak/*.spec.js",
 
       "7-built-in-directives/11-ng-disabled/*.js",
-      "7-built-in-directive/11-ng-disabled/*.spec.js",
+      "7-built-in-directives/11-ng-disabled/*.spec.js",
+
+      "7-built-in-directives/12-ng-form/*.js",
+      "7-built-in-directives/12-ng-form/*.spec.js",
     ],
 
     // list of files / patterns to exclude
