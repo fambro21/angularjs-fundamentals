@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en" ng-app="ngRepeatApp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NgRepeatApp</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <ul ng-controller="PeopleController">
+      <li ng-repeat="person in people" ng-class="{even: !$even, odd: !$odd}">
+        {{person.name}} lives in {{person.city}}
+      </li>
+    </ul>
+    <script src="./app.js"></script>
+  </body>
+</html>

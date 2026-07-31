@@ -91,6 +91,9 @@ module.exports = function (config) {
 
       "7-built-in-directives/16-ng-readonly/*.js",
       "7-built-in-directives/16-ng-readonly/*.spec.js",
+
+      "7-built-in-directives/17-ng-repeat/*.js",
+      "7-built-in-directives/17-ng-repeat/*.spec.js",
     ],
 
     // list of files / patterns to exclude
