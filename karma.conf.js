@@ -100,6 +100,12 @@ module.exports = function (config) {
 
       "7-built-in-directives/19-ng-show-hide/*.js",
       "7-built-in-directives/19-ng-show-hide/*.spec.js",
+
+      "7-built-in-directives/20-ng-src/*.js",
+      "7-built-in-directives/20-ng-src/*.spec.js",
+
+      "7-built-in-directives/21-ng-submit/*.js",
+      "7-built-in-directives/21-ng-submit/*.spec.js",
     ],
 
     // list of files / patterns to exclude
