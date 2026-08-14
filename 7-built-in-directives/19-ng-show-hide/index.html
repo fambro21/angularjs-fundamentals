@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en" ng-app="NgShowHide">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NgShow and NgHide</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+  </head>
+  <body>
+    <div ng-show="2 + 2 == 5">2 + 2 isn't 5, don't show</div>
+    <div ng-show="2 + 2 == 4">2 + 2 is 4, do show</div>
+
+    <div ng-hide="2 + 2 == 5">2 + 2 isn't 5, don't hide</div>
+    <div ng-hide="2 + 2 == 4">2 + 2 isn't 5, do hide</div>
+    <script src="./app.js"></script>
+  </body>
+</html>
