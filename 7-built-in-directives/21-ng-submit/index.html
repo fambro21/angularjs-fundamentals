@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" ng-app="NgSubmitApp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NgSubmit</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+  </head>
+  <body>
+    <form ng-submit="submit()" ng-controller="FormController">
+      Enter text and hit enter:
+      <input type="text" ng-model="person.name" name="person.name" />
+      <input type="submit" name="person.name" value="Submit" />
+      <code>people={{people}}</code>
+      <ul ng-repeat="(index, object) in people">
+        <li>{{ object.name }}</li>
+      </ul>
+    </form>
+    <script src="./app.js"></script>
+  </body>
+</html>
