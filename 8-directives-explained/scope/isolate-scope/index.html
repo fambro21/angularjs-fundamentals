@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en" ng-app="ngIsolateScopeApp">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NgIsolate-Scope</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+  </head>
+  <body>
+    <div ng-init="myProperty = 'wow, this is cool'"></div>
+    Surrounding scope: {{ myProperty}}
+    <div my-inherit-scope-directive="SomeController">
+      Inside an directive with inherited scope: {{ myProperty }}
+    </div>
+    <div my-directive>Inside myDirective, isolate scope: {{myProperty}}</div>
+    <script src="./app.js"></script>
+  </body>
+</html>

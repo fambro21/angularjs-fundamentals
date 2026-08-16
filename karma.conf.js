@@ -109,6 +109,9 @@ module.exports = function (config) {
 
       "8-directives-explained/scope/inherited-scope/*.js",
       "8-directives-explained/scope/inherited-scope/*.spec.js",
+
+      "8-directives-explained/scope/isolate-scope/*.js",
+      "8-directives-explained/scope/isolate-scope/*.spec.js",
     ],
 
     // list of files / patterns to exclude
