@@ -106,6 +106,9 @@ module.exports = function (config) {
 
       "7-built-in-directives/21-ng-submit/*.js",
       "7-built-in-directives/21-ng-submit/*.spec.js",
+
+      "8-directives-explained/scope/inherited-scope/*.js",
+      "8-directives-explained/scope/inherited-scope/*.spec.js",
     ],
 
     // list of files / patterns to exclude
